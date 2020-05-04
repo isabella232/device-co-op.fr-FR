@@ -1,19 +1,19 @@
 ---
-description: Les données de Device Graph sont disponibles dans Profile Link, sous la forme d’une option de règle de fusion. Une règle de fusion vous permet de contrôler le type de données utilisé par Audience Manager pour la segmentation.
-seo-description: Les données de Device Graph sont disponibles dans Profile Link, sous la forme d’une option de règle de fusion. Une règle de fusion vous permet de contrôler le type de données utilisé par Audience Manager pour la segmentation.
-seo-title: Audience Manager - Lien de profil
-title: Audience Manager - Lien de profil
+description: Les données du graphique de périphérique sont disponibles en tant que règle de fusion dans Lien de Profil. Une règle de fusion vous permet de contrôler le type de données utilisé par le Gestionnaire d’Audiences de données pour la segmentation.
+seo-description: Les données du graphique de périphérique sont disponibles dans Lien de Profil en tant que règle de fusion. Une règle de fusion vous permet de contrôler le type de données utilisé par le Gestionnaire d’Audiences de données pour la segmentation.
+seo-title: Gestionnaire d'Audiences - Lien de Profil
+title: Gestionnaire d'Audiences - Lien de Profil
 uuid: cebf40e5-9f0c-4e59-b4a7-73696fa2dadc
 translation-type: tm+mt
-source-git-commit: c1d0bc05d3f211fa3e899e98fbcc908be7399031
+source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
 
 ---
 
 
-# Audience Manager - Profile Link{#audience-manager-profile-link}
+# Gestionnaire d&#39;Audiences - Lien de Profil{#audience-manager-profile-link}
 
-Les données de Device Graph sont disponibles dans Profile Link, sous la forme d’une option de règle de fusion. Une règle de fusion vous permet de contrôler le type de données utilisé par Audience Manager pour la segmentation.
+Les données du graphique de périphérique sont disponibles en tant que règle de fusion dans Lien de Profil. Une règle de fusion vous permet de contrôler le type de données utilisé par le Gestionnaire d’Audiences de données pour la segmentation.
 
-Profile Link utilise les sources de données interpériphériques afin d’identifier et de collecter les caractéristiques pour les visiteurs authentifiés du site. Elle comprend la fonction Règles de fusion des profils. Les règles de fusion de profils vous permettent de contrôler les jeux de données utilisés pour la segmentation et de cibler une personne avec précision sur plusieurs périphériques.
+Profil Link fonctionne avec des sources de données inter-périphériques pour identifier et collecter les caractéristiques des visiteurs de site authentifiés. Elle comprend la fonction Règles de fusion des Profils. Grâce aux règles de fusion de Profils, vous contrôlez les jeux de données utilisés pour la segmentation et pouvez cible une personne avec précision sur plusieurs périphériques.
 
-See the [Profile Link documentation](https://marketing.adobe.com/resources/help/en_US/aam/profile-link-intro.html) for more information.
+See the [Profile Link documentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html) for more information.
