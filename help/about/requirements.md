@@ -1,82 +1,82 @@
 ---
-description: Votre entreprise doit respecter ces normes minimales avant de pouvoir commencer à utiliser Experience Cloud Device Co-op.
-seo-description: Votre entreprise doit respecter ces normes minimales avant de pouvoir commencer à utiliser Experience Cloud Device Co-op.
+description: Votre société doit respecter ces normes minimales avant de pouvoir début à l’aide d’Experience Cloud Device Co-op.
+seo-description: Votre société doit respecter ces normes minimales avant de pouvoir début à l’aide d’Experience Cloud Device Co-op.
 seo-title: Conditions d'adhésion
 title: Conditions d'adhésion
 uuid: 4295fa4e-1b9e-4323-bb79-48e548ca1167
 translation-type: tm+mt
-source-git-commit: 581167e0a0617aa04621faf840920549b9baa94b
+source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
 
 ---
 
 
-# Membership requirements{#membership-requirements}
+# Conditions d&#39;adhésion{#membership-requirements}
 
-Votre entreprise doit respecter ces normes minimales avant de pouvoir commencer à utiliser Experience Cloud Device Co-op.
+Votre société doit respecter ces normes minimales avant de pouvoir début à l’aide d’Experience Cloud Device Co-op.
 
 ## Conditions requises {#section-9cbcee3c7b4e4c49b4c0e2b26aec5fe9}
 
-Parle à toi [!DNL Adobe representative to get started]. Si vous n’en avez pas, rendez-vous sur le [portail d’adhésion de Device Co-op](http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) (en anglais) et remplissez le formulaire en ligne.
+Parle à toi [!DNL Adobe representative to get started]. Si vous n’avez pas de représentant Adobe, visitez le portail [d’adhésion](http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) Device Co-op et complétez le formulaire en ligne.
 
-Adobe se réserve le droit de refuser toute adhésion potentielle d’un client à la Device Co-op d’Experience Cloud si Adobe détermine que la participation d’un client potentiel à la Device Co-op peut (1) enfreindre toute loi applicable ; ou (2) présentent un risque matériel pour la sécurité ou les opérations d’Adobe ou de l’un de ses clients.
+Adobe se réserve le droit de refuser toute adhésion potentielle d’un client à Experience Cloud Device Co-op si Adobe détermine que la participation d’un client potentiel à Device Co-op peut (1) enfreindre toute loi applicable ; ou (2) présentent un risque matériel pour la sécurité ou les opérations d’Adobe ou de l’un de ses clients.
 
 ## Conditions requises pour Experience Cloud {#section-76218a50385d43e6b9323e49f598394a}
 
-Pour participer à la coopérative, vous devez disposer de privilèges d’accès à [!DNL Adobe Experience Cloud] et utiliser les solutions et services ci-après.
+Vous devez être autorisé à participer à la coopérative [!DNL Adobe Experience Cloud] et à utiliser les solutions et services suivants.
 
 **Solutions**
 
-Les candidats doivent utiliser au moins l’une des solutions [!DNL Adobe] suivantes :
+Les candidats doivent utiliser au moins une des [!DNL Adobe]solutions suivantes :
 
-* [Analytics](http://www.adobe.com/marketing-cloud/web-analytics.html)
-* [Audience Manager](http://www.adobe.com/marketing-cloud/data-management-platform.html)
+* [Analytics](http://www.adobe.com/fr/marketing-cloud/web-analytics.html)
+* [Audience Manager](http://www.adobe.com/fr/marketing-cloud/data-management-platform.html)
 * [Media Optimizer](http://www.adobe.com/marketing-cloud/online-advertising-management.html)
-* [Target](http://www.adobe.com/marketing-cloud/testing-targeting.html)
+* [Target](http://www.adobe.com/fr/marketing-cloud/testing-targeting.html)
 
 **Services principaux**
 
-Applicants must implement the [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+Les candidats doivent mettre en oeuvre le service [d’ID](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html)Experience Cloud.
 
-## Adobe code library requirements {#section-931a3fca1ce54afd90b88ba032e75f05}
+## Configuration requise pour la bibliothèque de code Adobe {#section-931a3fca1ce54afd90b88ba032e75f05}
 
-Le tableau suivant répertorie les versions minimales requises des bibliothèques de code ou SDK utilisés par divers solutions et services [!DNL Experience Cloud]. Si vous utilisez l’un de ces codes et souhaitez participer à Device Co-op, veillez à remplir ces conditions minimales requises.
+Le tableau suivant liste les versions minimales des bibliothèques de code ou des SDK utilisés par diverses [!DNL Experience Cloud] solutions et services. Si vous utilisez l&#39;un de ces codes et souhaitez participer à Device Co-op, assurez-vous de respecter ces exigences minimales.
 
 >[!TIP]
 >
->Il est recommandé d’utiliser les versions de code les plus récentes plutôt que les versions minimales requises.
+>Il est recommandé d’utiliser les dernières versions de code plutôt que les versions minimales requises.
 
 **AppMeasurement (Flash)**
 
-Version 4.1 requise. Voir [AppMeasurement pour Flash, Flex et AIR](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/).
+Requiert la version 4.1. Voir [AppMeasurement pour Flash, Flex et AIR](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md).
 
 **AppMeasurement (JavaScript)**
 
-Version 1.5.4 requise. Voir [AppMeasurement pour Flash, Flex et AIR](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/flash/).
+Requiert la version 1.5.4. Voir [AppMeasurement pour Flash, Flex et AIR](https://docs.adobe.com/content/help/en/analytics/implementation/js/migrate-from-hcode.html).
 
 **SDK mobiles**
 
-Configuration minimale requise pour les SDK mobiles :
+Configuration minimale requise pour le SDK mobile :
 
 * Android version 4.8.3.
 * iOS version 4.8.5.
 
-Le code de votre SDK doit être activé pour le service [!DNL Experience Cloud] ID. Activez et téléchargez le dernier code du SDK pour chaque application depuis votre compte [Adobe Mobile Services](https://mobilemarketing.adobe.com/). Consultez la rubrique [Configuration des options Service d’identification des visiteurs du SDK](https://marketing.adobe.com/resources/help/en_US/mobile/?f=t_config_visitor.html).
+Your SDK code must be enabled for the [!DNL Experience Cloud] ID service. Enable and download the latest SDK code for each app in your [Adobe Mobile Services](https://mobilemarketing.adobe.com/) account. See [Configure SDK Visitor ID Service Options](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/t-config-visitor.html).
 
-Pour chaque SDK, appliquez la méthode `visitorSyncIdentifier` adaptée à vos besoins. Voir :
+Pour chaque SDK, utilisez la `visitorSyncIdentifier` méthode appropriée qui correspond à vos besoins. Voir :
 
-* [Méthodes du service Android Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mobile/android/mc_methods.html)
-* [Méthodes du service d’ID d’expérience iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=mc_methods.html)
+* [Méthodes du service d’identification d’expérience Android](https://docs.adobe.com/content/help/en/mobile-services/android/experience-cloud-android/mcvid.html)
+* [Méthodes du service d’ID d’expérience iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/exp-cloud-ios/mcvid.html)
 
 **VisitorAPI.js**
 
-Version 1.5.4 requise.
+Nécessite la version 1.5.4.
 
-[!DNL Analytics] les clients peuvent télécharger la bibliothèque VisitorAPI.js depuis [!DNL Code Manager]. Elle se trouve parmi les fichiers JavaScript (nouveaux) ou JavaScript (hérités). Contact [Customer Care](https://helpx.adobe.com/marketing-cloud/contact-support.html) if you do not have access to [!DNL Code Manager].
+[!DNL Analytics] les clients peuvent télécharger la bibliothèque VisitorAPI.js depuis [!DNL Code Manager]. Il se trouve dans les fichiers JavaScript (nouveau) ou JavaScript (hérité). Contactez le service à la [clientèle](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html) si vous n’avez pas accès à [!DNL Code Manager].
 
-**Bibliothèque cible**
+**Bibliothèque de Cibles**
 
-L’une de ces bibliothèques JavaScript [!DNL Target] est requise :
+Requiert l’une des bibliothèques [!DNL Target] JavaScript suivantes :
 
-* at.js (n’importe quelle version)
-* mbox.js version 58 ou supérieure
+* at.js (toute version)
+* mbox.js version 58 ou ultérieure
 
