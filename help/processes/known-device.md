@@ -6,72 +6,75 @@ title: Périphériques connus
 uuid: 53c21105-45b1-4bed-a473-d3ccc4bae965
 translation-type: tm+mt
 source-git-commit: 4f972a4ae3f0c5ee11b21876bd8a6966cad90371
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 1%
 
 ---
 
 
-# Known devices{#known-devices}
+# Périphériques connus{#known-devices}
 
 A propos des périphériques connus dans le graphique de périphériques.
 
-Device Graph repose sur le concept de *`known device`*. Un périphérique connu est un périphérique avec lequel un utilisateur interagit avec votre marque.
+Dans le graphique de périphériques, nous avons le concept d&#39;un *`known device`* graphique. Un périphérique connu est un périphérique utilisé par un client pour interagir avec votre marque.
 
 >[!NOTE]
 >
->Dans le [!DNL Adobe Experience Cloud Device Co-op], termes tels que *`device`*, *`person`*, *`identity`* etc. ont des significations précises. Le terme « périphérique » peut, en effet, se rapporter au matériel (téléphone ou tablette) mais aussi aux applications qui s’exécutent sur ce matériel. Consultez le [glossaire](../glossary.md#glossgroup-0f47d7fbd76c4759801f565f341a386c) pour en connaître les définitions.
+>Dans le [!DNL Adobe Experience Cloud Device Co-op], termes tels que *`device`*, *`person`*, *`identity`* etc. ont des significations précises. Par exemple, &quot;périphérique&quot; peut faire référence au matériel physique tel qu’un téléphone ou une tablette et aux applications qui s’exécutent sur ce matériel. Voir le [glossaire](../glossary.md#glossgroup-0f47d7fbd76c4759801f565f341a386c) pour les définitions.
 
-## Supporting goals with the known device {#section-80deae33660e4280ac65c659ceff5601}
+## Prise en charge des objectifs avec le périphérique connu {#section-80deae33660e4280ac65c659ceff5601}
 
-Le concept de périphérique connu s’accompagne de quelques objectifs essentiels à la création et à la maintenance d’un programme [!DNL Device Co-op] efficace. Un périphérique connu est un périphérique au sujet duquel un membre de [!DNL Device Co-op] possède des informations suite à une interaction avec un consommateur (visite d’un site ou utilisation d’une application mobile, par exemple). Based on these actions, the [!DNL Device Graph] links the known devices of a [!DNL Device Co-op] member to devices contributed by other [!DNL Device Co-op] members. Ces liens peuvent être [déterministes ou probabilistes](../processes/links.md#concept-58bb7ab25f904f5f98d645e35205c931). This benefits [!DNL Device Co-op] members because they receive:
+Le concept d&#39;appareil connu soutient quelques objectifs essentiels à la création et à la maintenance d&#39;un [!DNL Device Co-op] programme efficace. Un périphérique connu est celui qu’un [!DNL Device Co-op] membre connaît à partir d’une interaction avec un consommateur (par exemple, une visite sur le site ou en utilisant une application mobile). Sur la base de ces actions, le [!DNL Device Graph] lien lie les périphériques connus d&#39;un [!DNL Device Co-op] membre aux périphériques fournis par d&#39;autres [!DNL Device Co-op] membres. Ces liens peuvent être [déterministes ou probabilistes](../processes/links.md#concept-58bb7ab25f904f5f98d645e35205c931). Cela profite aux [!DNL Device Co-op] membres parce qu&#39;ils reçoivent :
 
-* davantage de données au sujet de leurs périphériques connus ;
-* de nouvelles informations au sujet d’autres périphériques liés.
+* Plus de données sur leurs appareils connus.
+* Nouvelles informations sur les autres périphériques liés.
 
 ![](assets/known-device.png)
 
-[!DNL Device Graph] ne divulgue jamais à un membre de Device Co-op donné des informations concernant des grappes de périphériques qu’il ne connaît pas.
+Le n&#39; [!DNL Device Graph] fournira pas d&#39;informations sur les clusters de dispositifs qu&#39;un membre Device Co-op n&#39;a pas vu.
 
-## Device Co-op goals {#section-75aea5a102d54733aae2a7c6ee9ec6c7}
+## Objectifs de Device Co-op {#section-75aea5a102d54733aae2a7c6ee9ec6c7}
 
-Three main goals animate the [!DNL Device Co-op]. à savoir : 
+Trois objectifs principaux animent le [!DNL Device Co-op]projet. Ces cas comprennent notamment :
 
-* **Échelle :** le partage du plus grand nombre de liaisons possibles à l’échelle de divers cas d’utilisation.
-* **Équité :** chaque membre de [!DNL Device Co-op] profite des avantages de ce programme au prorata de sa contribution.
+* **Échelle :** Partagez le nombre maximum de liens possibles dans divers cas d’utilisation.
+* **Équité :** Veiller à ce que chaque membre des [!DNL Device Co-op] prestations d&#39;une manière proportionnelle à ses cotisations.
 
-* **Confiance des consommateurs :** elle doit être établie et entretenue en s’assurant que l’expérience offerte aux consommateurs implique des marques qu’ils connaissent déjà et à qui ils font confiance, quel que soit le périphérique.
+* **Confiance des consommateurs :** Maintenir et renforcer la confiance des consommateurs en s&#39;assurant que l&#39;expérience des consommateurs sur plusieurs périphériques implique des marques qu&#39;ils connaissent déjà et qu&#39;ils ont confiance.
 
-## Scale and the known device {#section-67f734109762457ca62ec306284ea082}
+## Échelle et périphérique connu {#section-67f734109762457ca62ec306284ea082}
 
-Les méthodes suivantes sont les méthodes les plus courantes pour qu’un périphérique soit qualifié de périphérique connu. Selon ces méthodes, les membres de [!DNL Device Co-op] disposent presque toujours d’au moins un périphérique connu conformément à l’objectif de fournir une échelle maximale à tous les membres de [!DNL Device Co-op].
+Les méthodes suivantes constituent les méthodes les plus courantes pour qualifier un périphérique comme un périphérique connu. Compte tenu de ces méthodes, [!DNL Device Co-op] les membres auront presque toujours au moins un appareil connu. Ceci soutient l&#39;objectif de fournir une échelle maximale à tous les membres du [!DNL Device Co-op]groupe.
 
 **Organique**
 
-* Suite à la visite d’un consommateur sur votre site ou à l’utilisation de votre application. Qualification découlant de données propriétaires.
-* Enregistrement des consommateurs à partir d’un système de gestion des relations client (CRM).
+* De la visite d’un client sur votre site ou en utilisant votre application. Il s’agit d’une qualification à partir de données propriétaires.
+* En faisant appel à des clients d’un système de gestion de la relation client.
 
 **Marketplace**
 
-* Achat des données de segments auprès d’Audience Marketplace.
-* Suite à l’achat de données auprès d’un fournisseur de données tiers.
+* Acheter des données de segment à partir d’une Audience Marketplace.
+* d’acheter des données auprès d’un fournisseur de données tiers.
 
 **Publicité**
 
-Inventaire remporté lors d’une vente aux enchères et diffusion d’une publicité sur un périphérique. Le périphérique devient connu si cette publicité contient un pixel [!DNL Audience Manager].
+En remportant l’inventaire lors d’une enchère et en diffusant une publicité sur un périphérique. Le périphérique devient un périphérique connu si cette publicité contient un [!DNL Audience Manager] pixel.
 
-## Known devices and fairness use cases {#section-0543188729d845d6b95db70b8b25e9f8}
+## Périphériques connus et cas d’utilisation équitable {#section-0543188729d845d6b95db70b8b25e9f8}
 
-Members of the [!DNL Device Co-op] get links commensurate with their contributions to the [!DNL Device Graph]. Les entreprises qui apportent à [!DNL Device Graph] des données sur de nombreux périphériques reçoivent davantage de liaisons que celles qui apportent des données sur quelques périphériques seulement. Ainsi, nous pensons que [!DNL Device Co-op] est équitable pour tous ses membres. Voyons comment ceci fonctionne avec les cas d’utilisation à grande et petite échelles décrits ci-après.
+Les membres du [!DNL Device Co-op] groupe obtiennent des liens proportionnels à leur contribution au [!DNL Device Graph]groupe. Les sociétés qui contribuent à de nombreux périphériques reçoivent plus de liens que les membres qui ne contribuent que peu. [!DNL Device Graph] Nous pensons que cela contribue à rendre l&#39; [!DNL Device Co-op] équité pour tous ses membres. Examinons comment cela fonctionne avec les cas d&#39;utilisation importante et réduite décrits ci-dessous.
 
 **Marque A : grand cas d&#39;utilisation**
 
-Dans cet exemple, la marque A enregistre chaque mois 100 visiteurs sur son site et commence une nouvelle campagne multipériphérique. For simplicity, assume the [!DNL Device Graph] knows all of the visitors to Brand A are linked to 1 additional device. Cela signifie que la marque A pourrait atteindre 100 autres appareils. Additionally, the [!DNL Device Graph] contains about 200 devices linked together.
+Dans cet exemple, la marque A comporte 100 visiteurs de site chaque mois et début une nouvelle campagne de marque sur plusieurs périphériques. Pour simplifier, supposons que le [!DNL Device Graph] connait tous les visiteurs à la marque A sont liés à 1 périphérique supplémentaire. Cela signifie que la marque A pourrait atteindre 100 autres appareils. En outre, le [!DNL Device Graph] contient environ 200 périphériques reliés entre eux.
 
 <table id="table_78C38DC522F94BC38C1DB73740C058AC"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Périphériques connus/mois </th> 
-   <th colname="col2" class="entry"> Périphériques liés reçus de Device Co-op </th> 
-   <th colname="col3" class="entry"> Total des périphériques pour la campagne </th> 
+   <th colname="col1" class="entry"> Périphériques/mois connus </th> 
+   <th colname="col2" class="entry"> Périphériques liés reçus de Device Co-op </th> 
+   <th colname="col3" class="entry"> Nombre total de périphériques pour Campaign </th> 
   </tr>
  </thead>
  <tbody> 
@@ -83,16 +86,16 @@ Dans cet exemple, la marque A enregistre chaque mois 100 visiteurs sur son sit
  </tbody> 
 </table>
 
-**Marque B : cas d’utilisation à petite échelle**
+**Marque B : Petit cas d&#39;utilisation**
 
-Dans cet exemple, la marque B enregistre chaque mois 100 visiteurs sur son site et commence une nouvelle campagne multipériphérique. For simplicity, assume the [!DNL Device Graph] knows all of the visitors to Brand B are linked to 50 additional devices. La marque B peut donc atteindre 150 périphériques. Additionally, the [!DNL Device Graph] contains about 1,000 devices linked together.
+Dans cet exemple, la marque B comporte 100 visiteurs de site chaque mois et début une nouvelle campagne de marque sur plusieurs périphériques. Pour la simplicité, supposons que le [!DNL Device Graph] sait que tous les visiteurs à la marque B sont liés à 50 périphériques supplémentaires. Cela signifie que la marque B peut atteindre 150 appareils. En outre, le [!DNL Device Graph] contient environ 1000 périphériques reliés entre eux.
 
 <table id="table_A6C9CCF9C6564A89BA7060E075A8E73C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Périphériques connus/mois </th> 
-   <th colname="col2" class="entry"> Périphériques liés reçus de Device Co-op </th> 
-   <th colname="col3" class="entry"> Total des périphériques pour la campagne </th> 
+   <th colname="col1" class="entry"> Périphériques/mois connus </th> 
+   <th colname="col2" class="entry"> Périphériques liés reçus de Device Co-op </th> 
+   <th colname="col3" class="entry"> Nombre total de périphériques pour Campaign </th> 
   </tr>
  </thead>
  <tbody> 
