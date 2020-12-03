@@ -6,70 +6,73 @@ title: Liens déterministes et probabilistes
 uuid: 00693a0a-f73d-460d-84a4-b7c745b9fe0a
 translation-type: tm+mt
 source-git-commit: c1d0bc05d3f211fa3e899e98fbcc908be7399031
+workflow-type: tm+mt
+source-wordcount: '866'
+ht-degree: 0%
 
 ---
 
 
-# Deterministic and probabilistic links{#deterministic-and-probabilistic-links}
+# Liens déterministes et probabilistes{#deterministic-and-probabilistic-links}
 
 Comment le graphique de périphériques analyse les données déterministes et probabilistes pour créer une carte qui relie les périphériques ensemble.
 
-Dans [!DNL Device Graph], les processus internes génèrent une hiérarchie des identités qui cartographie les périphériques et les associe à des individus anonymes. La sortie du graphique comprend des liens entre périphériques que vous pouvez utiliser pour le ciblage, ainsi que des données exposées dans certaines solutions Experience Cloud. The Adobe solutions that work with [!DNL Device Graph] data include Analytics, Audience Manager, Media Optimizer, and Target.
+Dans le [!DNL Device Graph]cas présent, les processus internes créent une hiérarchie d&#39;identité qui mappe les périphériques et les connecte à des personnes anonymes individuelles. La sortie du graphique comprend des liens entre périphériques que vous pouvez utiliser pour le ciblage, ainsi que des données exposées dans certaines solutions Experience Cloud. Les solutions d’Adobe qui fonctionnent avec [!DNL Device Graph] les données incluent Analytics, Audience Manager, Media Optimizer et Cible.
 
-[!DNL Device Graph] analyse les données déterministes et probabilistes afin de dresser une carte reliant les différents périphériques. Les données déterministes relient les périphériques en fonction des informations d’ouverture de session hachées. Les données probabilistes relient les périphériques en fonction d’informations telles que les adresses IP et autres métadonnées. [!DNL Device Graph] associe les grappes de périphériques liés à une personne anonyme. Les marketeurs peuvent ainsi toucher des personnes plutôt que des périphériques. Dans [!DNL Device Graph], le propriétaire d’un périphérique constitue la représentation anonyme d’une personne réelle. Les liaisons déterministes et probabilistes contribuent à structurer l’identité de l’utilisateur.
+L&#39; [!DNL Device Graph] analyse les données déterministes et probabilistes pour créer une carte qui relie les périphériques. Les données déterministes relient les périphériques en fonction des informations de connexion hachées. Les données probabilistes relient les périphériques en fonction d’informations telles que les adresses IP et d’autres métadonnées. Ces connexions permettent aux spécialistes du marketing numérique d’atteindre des personnes plutôt que des appareils. [!DNL Device Graph] Dans le [!DNL Device Graph]cas, le propriétaire d&#39;un appareil est la représentation anonyme d&#39;une personne réelle. Les liens déterministes et probabilistes aident à construire une structure d&#39;identité utilisateur.
 
 >[!NOTE]
 >
->Dans Adobe Experience Cloud Device Co-op, les termes tels que *périphérique*, *personne* et *identité* ont des significations spécifiques. For example, *device* can refer to physical hardware such as a phone or tablet and the applications that run on that hardware. Consultez le [glossaire](../glossary.md#glossgroup-0f47d7fbd76c4759801f565f341a386c) pour en connaître les définitions.
+>Dans Adobe Experience Cloud Device Co-op, les termes tels que *périphérique*, *personne* et *identité* ont des significations spécifiques. Par exemple, *le périphérique* peut faire référence au matériel physique tel qu’un téléphone ou une tablette et aux applications qui s’exécutent sur ce matériel. Voir le [glossaire](../glossary.md#glossgroup-0f47d7fbd76c4759801f565f341a386c) pour les définitions.
 
-## What are links? {#section-2df4c6f01eba49369993146df0661f13}
+## Que sont les liens ? {#section-2df4c6f01eba49369993146df0661f13}
 
-Il convient de ne pas oublier que nous parlons de liaisons dans le contexte du [!DNL Experience Cloud] Device Graph. Ici, il ne s’agit pas de connexions physiques entre des périphériques mais plutôt de la façon dont Device Graph associe différents périphériques à la même personne inconnue. Prenons l’exemple d’un téléphone mobile et d’un navigateur d’ordinateur. Ils peuvent être « liés » une fois que Device Graph a déterminé que ces deux périphériques sont utilisés par la même personne inconnue. Comme il est expliqué ci-après, Device Graph construit les identités à partir de liaisons déterministes et probabilistes. En outre, dans Device Graph, le propriétaire d’un périphérique constitue la représentation anonyme d’une personne réelle.
+Quand nous parlons de liens, il est important de garder à l&#39;esprit ce qu&#39;ils sont réellement dans le contexte du graphique de [!DNL Experience Cloud] périphériques. Dans ce contexte, les liens ne sont pas des connexions physiques entre les périphériques. Au lieu de cela, un lien est la façon dont le graphique de périphériques associe différents périphériques à une même personne inconnue. Par exemple, supposons que nous ayons un téléphone mobile et un navigateur de bureau. Le téléphone et le navigateur peuvent être considérés comme &quot;liés&quot; une fois que le graphique de périphériques a déterminé que ces deux périphériques sont utilisés par la même personne inconnue. Comme vous le verrez ci-dessous, le graphique de périphériques crée des identités avec des liens déterministes et probabilistes. Et, dans le graphique de périphériques, le propriétaire d&#39;un appareil est la représentation anonyme d&#39;une personne réelle.
 
-## Deterministic links {#section-33d41e828a674b398e36fe63da20ac09}
+## Liens déterministes {#section-33d41e828a674b398e36fe63da20ac09}
 
-Les liaisons déterministes associent un périphérique à une personne en fonction d’un événement d’authentification (ex. : une ouverture de session sur un site à partir d’un périphérique). Cette action crée un identificateur anonyme, communément appelé un identifiant client. Voyons comment fonctionne la liaison déterministe. Dans cet exemple, la personne A ouvre une session sur un site d’actualités au moyen d’une application sur son périphérique mobile. Plus tard au cours de la même journée, cette personne A ouvre une nouvelle session sur ce site, mais cette fois via un navigateur sur son ordinateur portable.
+Les liens déterministes associent un périphérique à une personne en fonction d’un événement d’authentification (par exemple, une action de connexion à un site à partir d’un périphérique). Cette action crée un identifiant anonymisé appelé ID de consommateur. Regardons comment fonctionne la liaison déterministe. Dans cet exemple, la personne A se connecte à un site de nouvelles par le biais d’une application sur son périphérique mobile. Plus tard ce jour-là, la Personne A se reconnecte, mais cette fois par le biais d&#39;un navigateur sur son ordinateur portable.
 
 ![](assets/link1.png)
 
-Selon les informations d’ouverture de session, Device Graph :
+En fonction des informations d&#39;ouverture de session, le graphique de périphériques :
 
-* sait que cette personne A s’est identifiée sur le site d’actualités depuis un téléphone mobile (via une application) mais aussi depuis un ordinateur portable (via un navigateur) ;
-* relie ces périphériques à la personne A ;
-* génère une identité en fonction des périphériques liés et associés à une personne anonyme.
+* Sait que la personne A s’est authentifiée sur le site de nouvelles avec une combinaison téléphone/application mobile et ordinateur portable/navigateur.
+* Associe ces appareils à la personne A.
+* Créera une identité basée sur des périphériques liés associés à une personne anonyme.
 
 ![](assets/link2.png)
 
 >[!NOTE]
 >
->Neither the [!DNL Adobe Experience Cloud Device Co-op] or the [!DNL Device Graph] receives actual authentication information or personally identifiable information (PII) in this data. Members of the [!DNL Experience Cloud Device Co-op], pass in cryptographically hashed, unique consumer IDs to the Device Graph. L’identifiant client représente un utilisateur authentifié dans le graphique et protège sa vie privée.
+>Ni l’un [!DNL Adobe Experience Cloud Device Co-op] ni l’autre ne [!DNL Device Graph] reçoivent d’informations d’authentification réelles ou d’informations d’identification personnelle dans ces données. Les membres du [!DNL Experience Cloud Device Co-op]graphique de périphériques transmettent des identifiants consommateurs uniques avec hachage cryptographique au graphique de périphériques. L’ID de consommateur représente un utilisateur authentifié dans le graphique et protège la confidentialité des clients.
 
-## Probabilistic links {#section-5f5aa755da984f9d851f7cb380262998}
+## Liens probabilistes {#section-5f5aa755da984f9d851f7cb380262998}
 
-Les liaisons probabilistes s’appuient sur une solution algorithmique pour relier un périphérique à une personne, en fonction de caractéristiques et de métadonnées du type :
+Les liens probabilistes connectent un périphérique à une personne de manière algorithmique, en fonction de caractéristiques et de métadonnées telles que :
 
 * Comportement de navigation
-* Adresses IP
+* Adresses IP
 * Systèmes d’exploitation
-* Identifiants publicitaires IDFA et GAID
+* Identifiants IDFA et GAID
 
-Voyons comment fonctionne la liaison probabiliste. Dans cet exemple, la personne A navigue jusqu’à un site d’actualités sur sa tablette, puis plus tard sur son ordinateur. Toutefois, elle ne s’identifie pas sur ce site. Durant chacune de ces visites, la tablette et l’ordinateur partagent la même adresse IP.
+Regardons comment fonctionne la liaison probabiliste. Dans cet exemple, la personne A navigue vers un site d’actualités sur sa tablette, puis plus tard depuis un ordinateur de bureau. Lors de la navigation, la personne A ne se connecte pas au site d&#39;actualités. Lors de chaque visite distincte, la tablette et le bureau partagent la même adresse IP.
 
 ![](assets/link3.png)
 
-En fonction de ces informations, [!DNL Device Graph] évalue les schémas de partage d’adresses IP entre les deux périphériques et relie ces derniers si les résultats suggèrent qu’ils appartiennent à la personne A. Une hiérarchie des identités est ainsi établie selon des calculs de probabilité algorithmique.
+À partir de ces informations, le [!DNL Device Graph] évalue les schémas de partage d&#39;adresses IP entre les deux périphériques et les relie si les résultats suggèrent qu&#39;ils appartiennent à la personne A. Le résultat final est la hiérarchie de l&#39;identité dérivée des calculs de probabilité algorithmique.
 
 ![](assets/link4.png)
 
-Dans cet exemple, Device Graph a pu relier les deux périphériques après qu’ils ont été utilisés pour accéder au même site d’actualités. Toutefois, les périphériques ne doivent pas forcément se connecter au même site pour être reliés. Imaginons, pour illustrer ce propos, que chaque périphérique de cet exemple accède à des sites web complètement différents. L’algorithme [!DNL Device Graph] peut encore créer une liaison probabiliste à l’aide des adresses IP partagées et de l’analyse d’autres données. Forte de ce processus, la liaison probabiliste s’avère un outil extrêmement performant pour les membres de [!DNL Experience Cloud] Device Co-op.
+Dans cet exemple, le graphique de périphériques reliait les deux périphériques après leur utilisation pour accéder au même site d&#39;actualités. Mais il n&#39;est pas nécessaire de voir les dispositifs sur le même site pour être liés. Pour illustrer ce point, supposons que chaque périphérique de cet exemple visite des sites Web complètement différents. L’ [!DNL Device Graph] algorithme peut toujours créer un lien probabiliste basé sur leur adresse IP partagée et à partir d’une analyse d’autres données. Ce processus contribue à rendre la liaison probabiliste si puissante pour les membres de Device Co-op [!DNL Experience Cloud] .
 
-## Both types of data provide value {#section-43d22d8c10634edcb261e7bda6fdf323}
+## Les deux types de données fournissent une valeur {#section-43d22d8c10634edcb261e7bda6fdf323}
 
-Les données déterministes et probabilistes sont complémentaires. Ainsi, s’il ne prend en compte que des données déterministes, un graphique Device Graph ne dresse qu’un portrait limité de l’identité de la personne. Sans authentification, un graphique Device Graph ne peut pas vous informer sur les autres périphériques et personnes qui consultent votre site. Les données probabilistes peuvent établir ces connexions et vous aider à toucher des périphériques, des personnes et des foyers non authentifiés.
+Les données déterministes et probabilistes se complètent. En revanche, un graphique de périphérique qui ne contient que des données déterministes vous donne une vue limitée de l&#39;identité d&#39;une personne. Sans authentification, un graphique de périphériques ne peut pas vous informer sur les autres périphériques et les personnes qui parcourent votre site. Les données probabilistes peuvent établir ces connexions et vous aider à atteindre des périphériques, des personnes et des ménages non authentifiés.
 
-Reste que les données déterministes n’en sont pas moins importantes. Elles peuvent par exemple améliorer la prise de décision probabiliste en supprimant les faux liens générés dans les lieux où les signaux probabilistes abondent et se chevauchent (cafés, bibliothèques, aéroports, etc.).
+Cependant, les données déterministes sont également importantes. Il peut, par exemple, améliorer la prise de décision probabiliste en supprimant les faux liens générés dans les endroits où les signaux probabilistes sont abondants et se chevauchent (p. ex., cafés, bibliothèques, aéroports, etc.).
 
-Grâce à la combinaison de ces deux types de données, Device Graph vous dresse un portrait plus complet de l’identité d’une personne qu’avec un seul de ces types de données.
+Avec les deux types de données, le graphique de périphériques vous donne une image plus complète de l&#39;identité d&#39;une personne que d&#39;un seul type.
 
 ![](assets/link5.png)
 
