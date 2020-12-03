@@ -1,18 +1,21 @@
 ---
-description: La mesure Personnes correspond au nombre de personnes (ou groupes de périphériques) en fonction du graphique de périphériques d’Adobe. Vous pouvez appliquer la mesure Personnes pour identifier les visiteurs sur leurs appareils dans Analyse Workspace.
-seo-description: La mesure Personnes correspond au nombre de personnes (ou groupes de périphériques) en fonction du graphique de périphériques d’Adobe. Vous pouvez appliquer la mesure Personnes pour identifier les visiteurs sur leurs appareils dans Analyse Workspace.
-seo-title: Mesure Personnes
-title: Mesure Personnes
+description: La mesure Personnes correspond au nombre de personnes (ou groupes de périphériques) en fonction du graphique de périphériques de l’Adobe. Vous pouvez appliquer la mesure Personnes pour identifier les visiteurs sur leurs appareils dans Analysis Workspace.
+seo-description: La mesure Personnes correspond au nombre de personnes (ou groupes de périphériques) en fonction du graphique de périphériques de l’Adobe. Vous pouvez appliquer la mesure Personnes pour identifier les visiteurs sur leurs appareils dans Analysis Workspace.
+seo-title: Mesure Personnes.
+title: Mesure Personnes.
 uuid: 8e731779-044d-4d31-a19a-f579a9c8c471
 translation-type: tm+mt
 source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
+workflow-type: tm+mt
+source-wordcount: '1408'
+ht-degree: 4%
 
 ---
 
 
-# Mesure Personnes{#people-metric}
+# Mesure Personnes.{#people-metric}
 
-La mesure Personnes correspond au nombre de personnes (ou groupes de périphériques) en fonction du graphique de périphériques d’Adobe. Vous pouvez appliquer la mesure Personnes pour identifier les visiteurs sur leurs appareils dans Analyse Workspace.
+La mesure Personnes correspond au nombre de personnes (ou groupes de périphériques) en fonction du graphique de périphériques de l’Adobe. Vous pouvez appliquer la mesure Personnes pour identifier les visiteurs sur leurs appareils dans Analysis Workspace.
 
 ## Conditions préalables et considérations relatives aux mesures des personnes {#section-34551d0435fb4b3cb3fad736b7961541}
 
@@ -25,8 +28,8 @@ La mesure Personnes correspond au nombre de personnes (ou groupes de périphéri
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Device Co-op </p> </td> 
-   <td colname="col2"> <p> Pour utiliser la mesure Personnes, devenez membre d’ <a href="http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html" format="html" scope="external"> Adobe Experience Cloud Device Co-op</a>. La coopération identifie plusieurs périphériques (ou identifiants Experience Cloud) d’une personne. Analytics utilise ces informations pour calculer statistiquement le nombre de personnes qui interagissent avec une marque. La mesure est précise à moins de 5 %. </p> <p><b>Régions</b>: La Device Co-op est actuellement disponible uniquement aux États-Unis et au Canada. Par conséquent, lors de l’évaluation de la mesure Personnes, vous devez appliquer à votre analyse un segment qui filtres vos données pour les États-Unis et le Canada uniquement. </p> <p>Chaque semaine, le graphique de périphériques calcule une nouvelle version de la coopérative et la publie en vue de son utilisation. Le mardi, le système collecte les dernières données et publie une version mise à jour du graphique. Les solutions Experience Cloud utilisent ensuite la dernière version du graphique. Dans Analytics, en particulier, les modifications sont lues le mercredi et le traitement des modifications prend généralement entre 1 et 2 jours ouvrés. </p> <p> <p>Important :  Lorsque le graphique se met à jour sur une base hebdomadaire, il peut avoir un impact historique sur la mesure Personnes. En d’autres termes, le décompte historique des personnes peut changer au fil du temps à mesure que le graphique apprend et est mis à jour. Par exemple, si vous exécutez un rapport qui comptabilise les personnes le mois dernier, puis le même rapport une semaine après la mise à jour du graphique, le nombre historique de personnes peut légèrement changer. </p> </p> </td> 
+   <td colname="col1"> <p>Appareil Co-op </p> </td> 
+   <td colname="col2"> <p> Pour utiliser la mesure Personnes, devenez membre de <a href="http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html" format="html" scope="external"> Adobe Experience Cloud Device Co-op</a>. La coopérative identifie les divers périphériques (ou identifiants d'Experience Cloud) d'une personne. Analytics utilise ces informations pour calculer statistiquement le nombre de personnes qui interagissent avec une marque. La mesure est précise à moins de 5 %. </p> <p><b>Régions</b>: La Device Co-op est actuellement disponible uniquement aux États-Unis et au Canada. Par conséquent, lors de l’évaluation de la mesure Personnes, vous devez appliquer à votre analyse un segment qui filtres vos données pour les États-Unis et le Canada uniquement. </p> <p>Chaque semaine, le graphique de périphériques calcule une nouvelle version de la coopérative et la publie en vue de son utilisation. Le mardi, le système collecte les dernières données et publie une version mise à jour du graphique. Les solutions Experience Cloud utilisent ensuite la dernière version du graphique. Dans Analytics, en particulier, les modifications sont lues le mercredi et le traitement des modifications prend généralement entre 1 et 2 jours ouvrés. </p> <p> <p>Important :  Lorsque le graphique se met à jour sur une base hebdomadaire, il peut avoir un impact historique sur la mesure Personnes. En d’autres termes, le décompte historique des personnes peut changer au fil du temps à mesure que le graphique apprend et est mis à jour. Par exemple, si vous exécutez un rapport qui comptabilise les personnes le mois dernier, puis le même rapport une semaine après la mise à jour du graphique, le nombre historique de personnes peut légèrement changer. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Autorisations de mesure </td> 
@@ -38,11 +41,11 @@ La mesure Personnes correspond au nombre de personnes (ou groupes de périphéri
   </tr> 
   <tr> 
    <td colname="col1"> <p>Projets/outils d’Analyse </p> </td> 
-   <td colname="col2"> <p>Utilisez la mesure Personnes dans <span class="wintitle"> Analyse Workspace</span>, dans une Analyse <span class="wintitle"></span>ad hoc, dans le créateur <span class="wintitle"></span>de rapports et au moyen de l’API. Vous pouvez l’utiliser partout où vous utiliseriez la mesure Visiteurs uniques, y compris les mesures calculées. </p> <p>Par exemple, créez une mesure des recettes par personne pour remplacer une mesure des recettes par visiteur unique. </p> <p>Un modèle <a href="https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html" format="html" scope="external"> de projet</a> Personnes est disponible pour commencer à utiliser la mesure Personnes dans Analyse Workspace. </p> </td> 
+   <td colname="col2"> <p>Utilisez la mesure Personnes en <span class="wintitle"> Analysis Workspace</span>, en <span class="wintitle"> Ad Hoc Analysis</span>, en <span class="wintitle"> Report Builder</span>et via l’API. Vous pouvez l’utiliser partout où vous utiliseriez la mesure Visiteurs uniques, y compris les mesures calculées. </p> <p>Par exemple, créez une mesure des recettes par personne pour remplacer une mesure des recettes par visiteur unique. </p> <p>Un modèle <a href="https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html" format="html" scope="external"> de projet</a> Personnes est disponible pour commencer à utiliser la mesure Personnes à Analysis Workspace. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activer les règles de robots </p> </td> 
-   <td colname="col2"> <p>Adobe recommande d’activer les règles <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-rules.html" format="html" scope="external"> de</a>robots, en particulier lors de l’utilisation de la mesure Personnes. </p> <p>Lorsqu’un robot analyse votre site Web, il augmente artificiellement le nombre de Visiteurs uniques. La suppression du trafic de robots de votre suite de rapports permet de mesurer plus précisément l’activité de vos propriétés numériques, en termes de Visiteurs uniques et de personnes. </p> <p>Pour ce faire, accédez à <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span>. Select the correct report suite, and then go to <span class="uicontrol"> Edit Settings</span> &gt; <span class="uicontrol"> General</span> &gt; <span class="uicontrol"> Bot Rules</span>. </p> </td> 
+   <td colname="col2"> <p>Adobe vous recommande d’activer les règles <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-rules.html" format="html" scope="external"> de</a>robots, en particulier lors de l’utilisation de la mesure Personnes. </p> <p>Lorsqu’un robot analyse votre site Web, il augmente artificiellement le nombre de Visiteurs uniques. La suppression du trafic de robots de votre suite de rapports permet de mesurer plus précisément l’activité de vos propriétés numériques, en termes de Visiteurs uniques et de personnes. </p> <p>Pour ce faire, accédez à <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suites</span>. Select the correct report suite, and then go to <span class="uicontrol"> Edit Settings</span> &gt; <span class="uicontrol"> General</span> &gt; <span class="uicontrol"> Bot Rules</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Considérations relatives à la segmentation </p> </td> 
@@ -65,7 +68,7 @@ La mesure Personnes vous permet d’attribuer précisément cet achat de 30 euro
 
 **Exactitude accrue des rapports**
 
-La mesure Personnes vous permet de considérer plusieurs périphériques comme une seule entité. Le projet Analyse Workspace suivant montre des comparaisons de précision accrues entre le rapports Visiteur unique et le rapports Personnes :
+La mesure Personnes vous permet de considérer plusieurs périphériques comme une seule entité. Le projet Analysis Workspace suivant montre des comparaisons de précision accrues entre le rapports Visiteur unique et le rapports des personnes :
 
 ![](assets/people_report.png)
 
@@ -84,12 +87,12 @@ Comparer les personnes et les Visiteurs uniques côte à côte :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Personnes </p> </td> 
+   <td colname="col1"> <p>People </p> </td> 
    <td colname="col2"> <p>La mesure Personnes repose sur l’idée que les consommateurs interagissent avec votre marque à l’aide de plusieurs périphériques. Plus vous découpez ou segmentez vos données, plus la probabilité qu’une même personne utilise plusieurs périphériques au sein de cette tranche de données est faible. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visiteurs uniques </p> </td> 
-   <td colname="col2"> <p>Par exemple, plus vous répartissez les données par date ou heure, plus la différence entre les personnes et les visiteurs uniques est faible. Si vous souhaitez une bonne compréhension de l’impact global de Device Co-op, Adobe conseille d’utiliser une plage de dates des 90 derniers jours. </p> </td> 
+   <td colname="col2"> <p>Par exemple, plus vous répartissez les données par date ou heure, plus la différence entre les personnes et les visiteurs uniques est faible. Si vous souhaitez une bonne compréhension de l'impact global de Device Co-op, l'Adobe recommande d'utiliser une plage de dates des 90 derniers jours. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Compression </p> </td> 
@@ -120,7 +123,7 @@ Ce problème survient principalement lors de l’empilement de segments avec la 
 
 L’empilement de segments crée un nouveau segment qui représente la combinaison des segments. L’empilement de segments survient lorsque vous :
 
-* Placez un segment au-dessus d’un autre segment dans l’espace de travail des Analyses. (Ils sont automatiquement joints à l’aide de l’ *`And`* opérateur.)
+* Placez un segment au-dessus d’un autre segment en Analysis Workspace. (Ils sont automatiquement joints à l’aide de l’ *`And`* opérateur.)
 * Appliquez un segment unique contenant l’ *`And`* opérateur.
 * Appliquez un segment au niveau du projet et au niveau du tableau.
 * Utilisez une suite de rapports virtuelle avec un autre segment.
@@ -138,19 +141,19 @@ Voir [Création de segments](https://docs.adobe.com/content/help/fr-FR/analytics
 
 ## Types de périphérique {#section-8ab378c84ff34574b9c20fecb3848a86}
 
-Les mesures Device Co-op et People fonctionnent mieux dans Adobe Analytics lorsque votre suite de rapports contient des données provenant de plusieurs types d’appareils. Par exemple, la combinaison des données web et app dans la même suite de rapports rend la mesure Personnes plus puissante et efficace. Plus vos données comportent de croisement de dispositifs, plus il y a de chances que plusieurs visiteurs uniques soient regroupés en une seule personne.
+Les mesures Device Co-op et People fonctionnent mieux en Adobe Analytics lorsque votre suite de rapports contient des données provenant de plusieurs types de périphériques. Par exemple, la combinaison des données web et app dans la même suite de rapports rend la mesure Personnes plus puissante et efficace. Plus vos données comportent de croisement de dispositifs, plus il y a de chances que plusieurs visiteurs uniques soient regroupés en une seule personne.
 
 ![](assets/people-device-types.png)
 
 ## Experience Cloud ID Service Coverage {#section-bbf0098cac2e467289e7a644a1dea05c}
 
-Device Co-op exige que vos propriétés numériques soient instrumentées à l’aide du service Experience Cloud ID (MCID). Si les données de votre suite de rapports contiennent un nombre important de visiteurs sans MCID, l’efficacité de Device Co-op et de la mesure Personnes est diminuée.
+Device Co-op exige que vos propriétés numériques soient instrumentées à l’aide du service d’ID d’Experience Cloud (MCID). Si les données de votre suite de rapports contiennent un nombre important de visiteurs sans MCID, l’efficacité de Device Co-op et de la mesure Personnes est diminuée.
 
 <!--
 mcdc-people-metric-apply.xml
 -->
 
-Dans Analyse Workspace, créez un [projet](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html), puis faites glisser la **[!UICONTROL People]** mesure vers le tableau du projet :
+Dans Analysis Workspace, créez un [projet](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html), puis faites glisser la **[!UICONTROL People]** mesure vers le tableau du projet :
 
 ![](assets/people-metric.png)
 
