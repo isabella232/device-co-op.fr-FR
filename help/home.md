@@ -1,18 +1,21 @@
 ---
-description: valeur nulle
-seo-description: valeur nulle
-seo-title: Documentation Adobe Experience Cloud Device Co-op
-title: Documentation Adobe Experience Cloud Device Co-op
+description: 'null'
+seo-description: 'null'
+seo-title: Documentation sur la coopération des périphériques Adobe Experience Cloud
+title: Documentation sur la coopération des périphériques Adobe Experience Cloud
 uuid: ec951e20-8736-4d42-b5e5-3e9abfc6820d
 translation-type: tm+mt
 source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 44%
 
 ---
 
 
-# Documentation Adobe Experience Cloud Device Co-op{#adobe-experience-cloud-device-co-op-documentation}
+# Documentation sur la coopération des périphériques Adobe Experience Cloud{#adobe-experience-cloud-device-co-op-documentation}
 
-Il [!DNL Adobe Experience Cloud] [!DNL Device Co-op] s’agit d’une coopérative numérique où les clients participants partagent les informations sur les liens des appareils. Le [!DNL Experience Cloud] processus [!DNL Device Co-op] traite ces données pour former des grappes de périphériques. Ces groupes représentent un groupe d&#39;appareils utilisés par une personne inconnue. Le groupe [!DNL Device Co-op] partage ces clusters entre ses membres, ce qui les aide à fournir à leurs clients des expériences interpériphériques précieuses et cohérentes.
+The [!DNL Adobe Experience Cloud] [!DNL Device Co-op] is a digital cooperative where participating customers share device link information. Le [!DNL Experience Cloud] processus [!DNL Device Co-op] traite ces données pour former des grappes de périphériques. Ces groupes représentent un groupe d&#39;appareils utilisés par une personne inconnue. Le groupe [!DNL Device Co-op] partage ces clusters entre ses membres, ce qui les aide à fournir à leurs clients des expériences interpériphériques précieuses et cohérentes.
 
 <!-- <a id="section_535A849B2BF14221BD78C968CC02732D"></a> -->
 
@@ -21,7 +24,7 @@ Il [!DNL Adobe Experience Cloud] [!DNL Device Co-op] s’agit d’une coopérati
   <tr> 
    <td colname="col1"> <p> <b>Nouveautés et points forts</b> </p> 
     <ul id="ul_47C012F6AB3E4B73BA357027F4D15369"> 
-     <li id="li_30DBD4F8A9FA4FEFA3E3E5903FC55887"><a href="about/overview.md#concept-de34e3bacae94869909e979f24bcc4e8" format="dita" scope="local"> Aperçu</a> </li> 
+     <li id="li_30DBD4F8A9FA4FEFA3E3E5903FC55887"><a href="about/overview.md#concept-de34e3bacae94869909e979f24bcc4e8" format="dita" scope="local"> Présentation</a> </li> 
      <li id="li_10D0D3D338FF445098EE18B322951FAF"><a href="about/requirements.md#concept-31d3d165d22546afbedf023d32ad3a43" format="dita" scope="local"> Conditions d'adhésion</a> </li> 
      <li id="li_466DC0DA0CD84E9E81EEF3237DCD411A"><a href="other-solutions/people.md#concept-8c57cd3904974e078d7fbf84ac9c2d63" format="dita" scope="local"> Mesure Personnes</a> </li> 
     </ul> </td> 
