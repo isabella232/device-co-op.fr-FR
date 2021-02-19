@@ -19,7 +19,7 @@ ht-degree: 33%
 + À propos de Device Co-op {#about}
    + [Présentation](about/overview.md)
    + [Conditions d&#39;adhésion](about/requirements.md)
-+ A propos du graphique du périphérique {#device-graph}
++ A propos du graphique de périphérique {#device-graph}
    + [Présentation graphique du périphérique](processes/device-graph-overview.md)
    + [Liens déterministes et probabilistes](processes/links.md)
    + [Partage de liens dans le graphique de périphériques](processes/link-sharing.md)
