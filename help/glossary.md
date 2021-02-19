@@ -23,15 +23,15 @@ Le programme est un groupe de marques, tous clients Adobes, qui ont accepté de 
 
 **Liaison déterministe**
 
-Lie un périphérique à une personne en fonction de l’authentification (par exemple, une connexion d’une personne sur un périphérique). Voir Liens [déterministes et probabilistes](processes/links.md#concept-58bb7ab25f904f5f98d645e35205c931)
+Lie un périphérique à une personne en fonction de l’authentification (par exemple, une connexion d’une personne sur un périphérique). Voir [Liens déterministes et probabilistes](processes/links.md#concept-58bb7ab25f904f5f98d645e35205c931)
 
 **Appareil**
 
-Dans le contexte de la [!DNL Device Graph], *`device`* a une double signification. Tout d&#39;abord, un périphérique est un périphérique matériel tel qu&#39;une tablette, un téléphone, un bureau sur lequel s&#39;exécutent d&#39;autres périphériques. Deuxièmement, un périphérique est un point d’interaction mobile, de bureau ou autre où une personne s’engage avec une marque. Actuellement, un [!DNL Experience Cloud] identifiant unique est attribué à une personne pour chaque périphérique qu’elle utilise. Par exemple, la même personne peut interagir avec une marque de Chrome sur son bureau, Firefox sur son ordinateur portable et une application sur un téléphone Android. Dans ce cas, Chrome, Firefox et l’application sont tous considérés comme des &quot;périphériques&quot;.
+Dans le contexte de [!DNL Device Graph], *`device`* a une double signification. Tout d&#39;abord, un périphérique est un périphérique matériel tel qu&#39;une tablette, un téléphone, un bureau sur lequel s&#39;exécutent d&#39;autres périphériques. Deuxièmement, un périphérique est un point d’interaction mobile, de bureau ou autre où une personne s’engage avec une marque. Actuellement, un identifiant [!DNL Experience Cloud] unique est attribué à une personne pour chaque périphérique utilisé. Par exemple, la même personne peut interagir avec une marque de Chrome sur son bureau, Firefox sur son ordinateur portable et une application sur un téléphone Android. Dans ce cas, Chrome, Firefox et l’application sont tous considérés comme des &quot;périphériques&quot;.
 
 **Périphériques par personne**
 
-See [Device](glossary.md#glossentry-5690d9a245634214b91890156e216950).
+Voir [Périphérique](glossary.md#glossentry-5690d9a245634214b91890156e216950).
 
 **ID de publicité de périphérique (DAID)**
 
@@ -39,12 +39,12 @@ Identifiant unique pour chaque périphérique matériel, à utiliser à des fins
 
 **Graphique du périphérique**
 
-Il [!DNL Device Graph] s’agit de l’ensemble des personnes et de leurs périphériques associés. La Adobe Experience Cloud Device Co-op génère le [!DNL Device Graph].
+[!DNL Device Graph] est l&#39;ensemble de toutes les personnes et de leurs périphériques associés. La Adobe Experience Cloud Device Co-op génère le [!DNL Device Graph].
 
 **Liaison**
 
-Regrouper [les périphériques](glossary.md#glossentry-5690d9a245634214b91890156e216950) à travers leurs points de contact.
+Regroupement de [périphériques](glossary.md#glossentry-5690d9a245634214b91890156e216950) par l&#39;intermédiaire de leurs points de contact.
 
 **Liaison probable**
 
-Liaison algorithmique d’un périphérique à une personne, en fonction de caractéristiques telles que le comportement de navigation, l’adresse IP, le système d’exploitation. Voir Liens [](processes/links.md#concept-58bb7ab25f904f5f98d645e35205c931)déterministes et probabilistes.
+Liaison algorithmique d’un périphérique à une personne, en fonction de caractéristiques telles que le comportement de navigation, l’adresse IP, le système d’exploitation. Voir [Liens déterministes et probabilistes](processes/links.md#concept-58bb7ab25f904f5f98d645e35205c931).
