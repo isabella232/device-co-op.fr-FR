@@ -19,4 +19,4 @@ Les données du graphique de périphérique sont disponibles en tant que règle 
 
 Profil Link fonctionne avec des sources de données inter-périphériques pour identifier et collecter les caractéristiques des visiteurs de site authentifiés. Elle comprend la fonction Règles de fusion des Profils. Grâce aux règles de fusion de Profils, vous contrôlez les jeux de données utilisés pour la segmentation et pouvez cible une personne avec précision sur plusieurs périphériques.
 
-See the [Profile Link documentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html) for more information.
+Pour plus d’informations, consultez la [documentation sur les liens de Profil](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html).
