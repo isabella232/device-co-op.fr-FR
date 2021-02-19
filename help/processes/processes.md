@@ -13,5 +13,5 @@ ht-degree: 14%
 ---
 
 
-# A propos du graphique du périphérique{#about-the-device-graph}
+# A propos du graphique du périphérique {#about-the-device-graph}
 
