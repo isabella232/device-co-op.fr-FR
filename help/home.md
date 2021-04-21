@@ -3,7 +3,6 @@ description: Documentation sur la coopération des périphériques Adobe Experie
 title: Documentation sur la coopération des périphériques Adobe Experience Cloud
 uuid: ec951e20-8736-4d42-b5e5-3e9abfc6820d
 exl-id: 6fab66de-127c-4267-9e55-4e3b74881b10
-translation-type: tm+mt
 source-git-commit: bbb8feec60964862a58af354e2678509537e2cc5
 workflow-type: tm+mt
 source-wordcount: '146'
