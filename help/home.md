@@ -7,7 +7,7 @@ source-git-commit: bbb8feec60964862a58af354e2678509537e2cc5
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 45%
-
+test-metadata: testing
 ---
 
 # Documentation de Adobe Experience Cloud Device Co-op{#adobe-experience-cloud-device-co-op-documentation}
