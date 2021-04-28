@@ -12,7 +12,6 @@ tutorials-title: Tutoriels
 tutorials-url: https://helpx.adobe.com/fr/experience-cloud/tutorials.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/device-co-op.fr-FR
 index: true
-translation-type: tm+mt
 source-git-commit: edb9233d29d46d7d559a513bbdaa81fa86e77418
 workflow-type: tm+mt
 source-wordcount: '169'
