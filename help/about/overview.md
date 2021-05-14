@@ -4,16 +4,15 @@ seo-description: La Adobe Experience Cloud Device Co-op est un programme qui per
 seo-title: Aperçu
 title: Aperçu
 uuid: 9e2502db-0dc6-4b0f-965f-71894fb1f9d4
-translation-type: tm+mt
-source-git-commit: c1d0bc05d3f211fa3e899e98fbcc908be7399031
+exl-id: 8195162c-fab4-49d8-8f6f-1e9ed96ffaa7
+source-git-commit: e7a53a4892a8769fc178f5f3f2b82201589177b2
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 1%
 
 ---
 
-
-# Présentation{#overview}
+# Aperçu{#overview}
 
 La Adobe Experience Cloud Device Co-op est un programme qui permet aux participants de travailler ensemble pour mieux identifier les consommateurs sur les points de contact numériques tout en assurant un niveau de confidentialité et de transparence maximal. L&#39;Experience Cloud Device Co-op permet aux marques participantes de reconnaître leurs consommateurs afin qu&#39;elles puissent offrir des expériences plus personnalisées sur les appareils et les applications à grande échelle. Device Co-op est un service central du Adobe Experience Cloud. Il est disponible pour les clients Adobes qui utilisent Analytics, Audience Manager, Media Optimizer ou Cible.
 
@@ -35,7 +34,7 @@ we may not want to share info in this with customers who have not signed. Also, 
 
 Dans [!DNL Device Co-op], [!DNL Adobe] :
 
-* **Est un gestionnaire de données : **Les membres de Device Co-op ne partagent pas directement les données entre eux. Au lieu de cela, [!DNL Adobe] agit en tant que courtier pour rendre les données de lien de périphérique disponibles à la coopérative par l&#39;intermédiaire de [!DNL Device Graph]. Les membres Device Co-op peuvent utiliser ces données grâce à des fonctionnalités de leurs solutions [!DNL Experience Cloud] activées.
+* **Est un gestionnaire de données : les membres** Device Co-op ne partagent pas directement les données entre eux. Au lieu de cela, [!DNL Adobe] agit en tant que courtier pour rendre les données de lien de périphérique disponibles à la coopérative par l&#39;intermédiaire de [!DNL Device Graph]. Les membres Device Co-op peuvent utiliser ces données grâce à des fonctionnalités de leurs solutions [!DNL Experience Cloud] activées.
 
 * **Croit en l&#39;équité des données : le partage** équitable des données est un concept important dans Device Co-op. Tous les membres [!DNL Device Co-op] reçoivent une valeur relative à ce qu&#39;ils contribuent. Si vous n&#39;avez jamais interagi avec une personne anonyme lors d&#39;une visite sur le site ou d&#39;une impression publicitaire, vous n&#39;obtiendrez aucune information sur leurs appareils dans le [!DNL Device Graph]. Device Co-op aide les marques à reconnaître les consommateurs familiers en utilisant des appareils inconnus.
 
