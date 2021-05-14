@@ -1,17 +1,14 @@
 ---
-description: Descriptions et réponses aux questions courantes sur la coopération Identity Services et le graphique d'identité.
-seo-description: Descriptions et réponses aux questions courantes sur la coopération Identity Services et le graphique d'identité.
-seo-title: FAQ
-title: FAQ
+description: Réponses aux questions courantes sur Device Co-op (Identity Services Cooperative et Identity Graph).
+title: FAQ sur Device Co-op
 uuid: 490566e1-4d35-468c-8389-678f9ff02cc8
-translation-type: tm+mt
-source-git-commit: c1d0bc05d3f211fa3e899e98fbcc908be7399031
+exl-id: 6511e247-76a7-4960-944c-b49fd046fb28
+source-git-commit: e7a53a4892a8769fc178f5f3f2b82201589177b2
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
-
 
 # FAQ{#faq}
 
