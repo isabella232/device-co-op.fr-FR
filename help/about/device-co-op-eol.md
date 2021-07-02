@@ -1,12 +1,12 @@
 ---
 keywords: adobe experience cloud;Adobe Experience Cloud;device co-op;Device Co-op;fin de vie
-solution: Adobe Experience Cloud
 title: FAQ sur la fin de vie de Device Co-op
 description: Découvrez les plans de fin de vie de Device Co-op.
-source-git-commit: b9e21ba2f749b7a4ad69c122e2273b7f3309da58
+exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
+source-git-commit: c19e8425d5d6c2498186c19929907d2ee5327b31
 workflow-type: tm+mt
 source-wordcount: '1017'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -51,7 +51,7 @@ Les applications suivantes seront affectées par les procédures de fin de vie d
 
 ### [!DNL Analytics]
 
-Vous pouvez utiliser la fonction [!DNL Analytics] [Analyses entre appareils (CDA)](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html), car elle prend en charge le service Adobe Experience Platform Identity [Graph privé](https://experienceleague.adobe.com/docs/analytics/components/cda/device-graph.html?lang=en) et le [Assemblage basé sur les champs](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html?lang=en).
+Vous pouvez utiliser la fonction [!DNL Analytics] [Analyses entre appareils (CDA)](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=fr), car elle prend en charge le service Adobe Experience Platform Identity [Graph privé](https://experienceleague.adobe.com/docs/analytics/components/cda/device-graph.html?lang=en) et le [Assemblage basé sur les champs](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html?lang=en).
 
 ### [!DNL Audience Manager]
 
@@ -77,7 +77,7 @@ Il n’existe actuellement aucune alternative disponible pour [!DNL Target] car 
 
 Votre mise en oeuvre du service d’identification des visiteurs existante alimente Analytics [CDA](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html). Si votre ID déclaré existant est un message électronique haché, il peut être utilisé pour alimenter les fonctionnalités suivantes :
 
-- [!DNL Audience Manager] [Destinations basées sur des personnes](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html).
+- [!DNL Audience Manager] [Destinations basées sur des personnes](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html?lang=fr).
 - [Correspondance de segment Experience Platform (Alpha)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-match.html?lang=en).
 
 ## Puis-je conserver mes données de [!DNL Device Co-op] ?
@@ -86,7 +86,7 @@ Pour les utilisateurs [!DNL Audience Manager] et [!DNL Advertising Cloud], les d
 
 ## Est-il obligatoire d’adopter d’autres caractéristiques ?
 
-Bien que l’adoption d’autres fonctionnalités d’Adobe ne soit pas obligatoire, vous devez commencer à mettre en oeuvre d’autres fonctionnalités dès que possible afin de permettre le temps et une coordination appropriée avant l’obsolescence de [!DNL Device Co-op].
+Bien que l’adoption d’autres fonctionnalités d’Adobe ne soit pas obligatoire, vous devez commencer à mettre en oeuvre d’autres fonctionnalités dès que possible afin de permettre le temps et la coordination appropriée avant l’obsolescence de [!DNL Device Co-op].
 
 ## Quand dois-je adopter des solutions alternatives si je le choisis ?
 
