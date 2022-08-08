@@ -3,9 +3,9 @@ keywords: adobe experience cloud;Adobe Experience Cloud;device co-op;Device Co-o
 title: FAQ sur la fin de vie de Device Co-op
 description: Découvrez les plans de fin de vie de Device Co-op.
 exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
-source-git-commit: 8896718ce5fec25cb72f7a2a5ccb4573433e0bb1
+source-git-commit: 952fe1bc73efd99812f3f2950b009ff8dcd83ae1
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1053'
 ht-degree: 5%
 
 ---
@@ -25,6 +25,10 @@ Les changements à venir dans l’environnement AdTech devraient se traduire par
 ## Pourquoi l’Adobe se termine-t-il ? [!DNL Device Co-op] les inscriptions maintenant ?
 
 Les inscriptions se terminent afin d’éviter les risques de ne pas répondre aux attentes des clients en raison des changements à venir du secteur concernant les cookies tiers. [!DNL Device Co-op] prend quelques mois pour être préparé et quelques autres mois pour extraire de la valeur du service. Si d’autres inscriptions se produisent à ce stade, les marques n’auront pas toute la valeur de [!DNL Device Co-op].
+
+## En juillet 2022, Google a annoncé le report de l’obsolescence des cookies tiers sur Chrome à 2024. Cela aura-t-il une incidence sur la variable [!DNL Device Co-op] Plans de fin de vie ?
+
+Non, Adobe [!DNL Device Co-op] Les plans de fin de vie continueront d&#39;être les mêmes et ne seront pas étendus.
 
 ## Les nouveaux clients peuvent-ils s’inscrire ?
 
